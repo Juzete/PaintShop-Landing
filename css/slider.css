@@ -1,0 +1,85 @@
+.swiper {
+    width: 1350px;
+    height: 480px;
+    margin-top: 20px;
+    padding: 30px 0px 15px 0px;
+    margin: 0 auto;
+  }
+  
+  .items-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    width: 270px;
+    height: 365px;
+    flex-wrap: wrap;
+    padding: 30px 15px 0px 30px;
+    background-color: white;
+    margin: 20px;
+    transition: 1s;
+  }
+  
+  .swiper-slide:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      box-shadow: 4px 4px 56px 1px rgba(34, 60, 80, 0.14);
+  }
+  
+  .swiper-slide img {
+    width: 170px;
+    height: 155px;
+    margin: 0 auto;
+  }
+  
+  .swiper-slide h3 {
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 21, 4px;
+    line-height: 125.9%;
+  }
+  
+  .swiper-slide p {
+    color: #5b5b5b;
+    font-size: 12px;
+    line-height: 144.9%;
+    height: 51px;
+  }
+  
+  .slider-item-price {
+    color: #2f53d1;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    line-height: 125.9%;
+    margin-right: 40px;
+  }
+  
+  .slider-item-availability {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    line-height: 144.9%;
+  }
+  
+  .slider-item-availability.yes {
+    color: #2bcb3b;
+  }
+  
+  .slider-item-availability.none {
+    color: #ff0000;
+  }
+  
+  .swiper-scrollbar {
+     background:  rgba(255, 186, 73, 0.3);
+  }
+  
+  .swiper-scrollbar-drag {
+      top: -2px;
+      height: 10px;
+      width: 50px;
+      cursor: pointer;
+      background: #FFBA49;
+  }
