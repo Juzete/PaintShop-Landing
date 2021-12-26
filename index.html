@@ -20,27 +20,28 @@
     <title>PaintShop</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
+    <header id="top">
+      <a href="#"><div class="logo">
         <img src="./img/logo.svg" alt="logo" />
         <div>
           <div>PaINter</div>
           <div>Помощник творчества</div>
         </div>
-      </div>
+      </div></a>
+
       <nav class="menu">
           <ul>
-            <li>Кисти</li>
-            <li>Карандаши</li>
-            <li>Краски</li>
-            <li>Холсты</li>
-            <li>Мольберты</li>
-            <li>Другое</li>
+            <li><a href="#">Кисти</a></li>
+            <li><a href="#">Карандаши</a></li>
+            <li><a href="#">Краски</a></li>
+            <li><a href="#">Холсты</a></li>
+            <li><a href="#">Мольберты</a></li>
+            <li><a href="#">Другое</a></li>
           </ul>
         </nav>
 
       <div class="telephone-number">8 (029) 123 45 67</div>
-      <button id="call-button">Позвонить</button>
+      <button class="call-button">Позвонить</button>
         <div id="cart-button">
           <img src="./img/cart.svg" alt="cart button" />
           <img src="./img/cart-arrow.svg" alt="" />
@@ -124,12 +125,12 @@
             <h2>Акции и скидки</h2> 
             <nav class="menu">
               <ul>
-                <li>Кисти</li>
-                <li>Карандаши</li>
-                <li>Краски</li>
-                <li>Холсты</li>
-                <li>Мольберты</li>
-                <li>Другое</li>
+                <li><a href="#">Кисти</a></li>
+                <li><a href="#">Карандаши</a></li>
+                <li><a href="#">Краски</a></li>
+                <li><a href="#">Холсты</a></li>
+                <li><a href="#">Мольберты</a></li>
+                <li><a href="#">Другое</a></li>
               </ul>
             </nav>
           </div>
@@ -168,6 +169,56 @@
             
           </div>
         </section>
+        <section class="inDigis-section">
+            <h2>o PaINter в цифрах</h2>
+            <div>
+              <strong>10</strong>
+              <span>Филлиалов по стране</span>
+  
+              <strong>500+</strong>
+              <span>Товаров</span>
+  
+              <strong>10000+</strong>
+              <span>Клиентов</span>
+  
+              <strong>12</strong>
+              <span>Часов доставка</span>
+            </div>
+          </section>
+
+          <footer>
+            <div class="logo">
+              <img src="./img/logo-white.svg" alt="logo" />
+              <div>
+                <div>PaINter</div>
+                <div>Помощник творчества</div>
+              </div>
+            </div>
+
+            <div class="arrow-up">
+               <a href="#top"><img src="./img/Arrow.svg" alt="arrow"></a>
+            </div>
+
+            <div class="information">
+              <strong>Информация <br></strong>
+              
+              <span>Оформление заказов </span>
+               <span>10:00-19:00 Пн-Сб </span> 
+               <span>Вс - выходной </span> 
+                <span>г.Полоцк, ул.Франциска Скорины 19</span>
+            </div>
+
+            <div class="social">
+              <strong>Мы в соц сетях </strong>
+              <span>Vk</span> 
+              <span>Instagram</span>
+              <span>Facebook</span>
+            </div>
+
+            <div class="telephone-number">8 (029) 123 45 67</div>
+
+            <button class="call-button">Позвонить</button>
+          </footer>
     </main>
     <script type="module" src="./js/swiper.js">
     </script>

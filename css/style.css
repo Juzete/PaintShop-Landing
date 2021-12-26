@@ -14,6 +14,11 @@ header {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .logo {
   display: flex;
   width: 242px;
@@ -24,7 +29,7 @@ header {
   cursor: pointer;
 }
 
-.logo div:nth-child(1) {
+header .logo div:nth-child(1) {
   font-weight: 700;
   color: #ef5b5b;
 }
@@ -62,7 +67,7 @@ header {
   font-weight: bold;
 }
 
-#call-button {
+.call-button {
   margin-left: 25px;
   border: 1px solid #ffba49;
   width: 121px;
@@ -72,7 +77,7 @@ header {
   transition: 1s;
 }
 
-#call-button:hover {
+.call-button:hover {
   background-color: #ffba49;
   color: white;
   transform: scale(1.1);
@@ -171,7 +176,7 @@ main {
 .kits-block:hover {
   transform: scale(1.03);
   cursor: pointer;
-  box-shadow: 0px 4px 20px 0px #0000001C;
+  box-shadow: 0px 4px 20px 0px #0000001c;
 }
 
 .kits-block.left {
@@ -268,3 +273,129 @@ main {
   height: 600px;
   width: 550px;
 } */
+
+.inDigis-section {
+  width: 1200px;
+  height: 130px;
+  margin: 60px auto;
+}
+
+.inDigis-section h2 {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 125.9%;
+}
+
+.inDigis-section strong {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 125.9%;
+}
+
+.inDigis-section span {
+  font-size: 13px;
+  line-height: 125.9%;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.inDigis-section > div {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+
+footer {
+  width: 1600px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #990c20;
+  font-size: 13px;
+  color: white;
+}
+
+footer .logo {
+  line-height: 43.4%;
+}
+
+footer .logo div:nth-child(1) {
+  font-weight: 700;
+}
+
+.arrow-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.arrow-up:hover {
+  cursor: pointer;
+}
+
+footer .information {
+  display: flex;
+  flex-wrap: wrap;
+  width: 245px;
+  height: 115px;
+  margin-left: 90px;
+}
+
+footer .information strong {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 94.9%;
+}
+
+footer .information span {
+  display: block;
+  width: 100%;
+  line-height: 134.4%;
+}
+
+footer .information span:nth-child(4) {
+  margin-bottom: 15px;
+}
+
+footer .social {
+  width: 132px;
+  height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}
+
+footer .social strong {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 94.9%;
+}
+
+footer .social span {
+  display: block;
+  width: 100%;
+  line-height: 134.4%;
+}
+
+footer .call-button {
+  background-color: #990c20;
+  color: white;
+  border: 1px solid white;
+}
+
+footer .call-button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+  cursor: pointer;
+}
